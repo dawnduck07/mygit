@@ -2,7 +2,7 @@ package com.kh.animal.Dog;
 
 public class Dog {
 	
-	public static void main(String[] args) {
-		System.out.println("멍멍");
+	public void say() {
+		System.out.println("멍멍~");
 	}
 }
