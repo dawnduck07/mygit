@@ -1,5 +1,7 @@
 package com.kh.git;
 
+import com.kh.animal.Cat.Cat;
+import com.kh.animal.Dog.Dog;
 import com.kh.foo.Foo;
 
 public class HelloWorld {
@@ -10,6 +12,9 @@ public class HelloWorld {
 		System.out.println("Good luck~");
 		
 		new Foo().sayFoo();
+		
+		new Dog().say();
+		new Cat().say();
 	}
 
 }
